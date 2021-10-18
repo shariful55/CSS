@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>background blend mode example </title>
+
+    <style>
+        #div1{
+            height: 300px;
+            width: 300px;
+        }
+        .example{
+            height: 400px;
+            width: 500px;
+            background-color: rosybrown;
+            background-repeat: no-repeat;
+            background-image: url(/overlay/download.jfif);
+            /* background-blend-mode: multiply; */
+            /* background-blend-mode: hue; */
+            /* background-blend-mode: lighten; */
+            /* background-blend-mode: luminosity; */
+            /* background-blend-mode: normal; */
+            /* background-blend-mode: overlay; */
+            /* background-blend-mode: saturation; */
+            /* background-blend-mode: screen; */
+            /* background-blend-mode: soft-light; */
+            /* background-blend-mode: inherit; */
+            /* background-blend-mode: color-dodge; */
+            /* background-blend-mode: difference; */
+            /* background-blend-mode: darken; */
+            /* background-blend-mode: hard-light; */
+            /* background-blend-mode: exclusion; */
+            /* background-blend-mode: color-burn; */
+            background-blend-mode: color;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="div1">
+        <h1>origina images </h1>
+        <img src="/overlay/download.jfif" alt="">
+    </div>
+    <div class="example"></div>
+    
+</body>
+</html>

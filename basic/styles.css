@@ -1,0 +1,51 @@
+
+/* body{
+    color: white;
+    background-color: red;
+    padding: 5px;
+
+}
+p{
+    color: blue;
+} */
+
+/* example of css element selector  */
+/* p{
+    text-align: center;
+    color: blue;
+} */
+
+/* example of css id selector  */
+/* body{
+    background-color: red;
+}
+
+#myId{
+text-align: center;
+color: white;
+} */
+/* example of class selector  */
+/* .center{
+    text-align: center;
+    color: blue;
+    stroke: burlywood;
+} */
+/* example of css class selector for specific element  */
+/* p.center{
+    text-align: center;
+    color: blue;
+
+} */
+/* example of css universal selector  */
+/* *{
+    color: green;
+    font-size: 20px;
+} */
+
+/* example of csss group selector  */
+
+h1,h2,p{
+    text-align: center;
+    color: blue;
+}
+

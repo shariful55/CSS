@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text effects text overflow </title>
+    <style>
+        .jtp{
+            white-space: nowrap;
+            height: 30px;
+            width: 250px;
+            overflow: hidden;
+            border: 2px solid black;
+            font-size: 25px;
+            text-overflow: clip;
+
+        }
+        .jtp1{
+            white-space: nowrap;
+            height: 30px;
+            width: 250px;
+            overflow: hidden;
+            border: 2px solid black;
+            font-size: 25px ;
+            text-overflow: ellipsis;
+        }
+        h2{
+            color: blue;
+        }
+        div:hover{
+            overflow: visible;
+        }
+        p{
+            font-size: 25px;
+            font-weight: bold;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <p>Hover over the bordered text to see the full content </p>
+    <h2>text-overflow: clip; </h2>
+    <div class="jtp">
+        Welcome to the shariful blog 
+    </div>
+    <h2>text-overflow:ellipsis</h2>
+    <div class="jtp1">
+        Welcome to the shariful blog 
+    </div>
+</body>
+</html>

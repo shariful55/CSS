@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>example of descendant combinator </title>
+    <style>
+        div p{
+            background-color: lightblue;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>This is 1st paragraph in the div </p>
+        <p>This is 2nd paragraph in the div </p>
+    </div>
+    This is second div in the first div 
+    <p>This is the paragraph in second div . it will also be affected. </p>
+
+    <p>Paragraph 4. It will not be affected because it is not in the div. </p>
+    
+    
+</body>
+</html>

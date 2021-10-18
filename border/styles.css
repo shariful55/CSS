@@ -1,0 +1,98 @@
+/* p.none{
+    border-style: none;
+
+}
+p.dotted{border-style: dotted;}
+p.dashed{border-style: dashed;}
+p.solid{border-style: solid;}
+p.double{border-style: double;}
+p.groove{border-style: groove;}
+p.ridge{border-style: ridge;}
+p.inset{border-style: inset;}
+p.outset{border-style: outset;}
+p.hidden{border-style: hidden;}
+
+p.one{
+    border-style: solid;
+    border-width: 5px;
+    border-color: red;
+    
+}
+p.two{
+    border-style: solid;
+    border-width: medium;
+    border-color: #98bf21;
+    
+}
+p.three{
+    border-style: solid;
+    border-width: 1px;
+    border-color: saddlebrown;
+    
+} */
+/* 
+div{
+    padding: 50px;
+    margin: 20px;
+    border: 6px ridge red;
+    width: 300px;
+    float: left;
+    height: 150px;
+
+}
+p{
+    font-size: 25px;
+}
+#one{
+    border-radius: 90px;
+    background: lightgreen;
+}
+#two{
+    border-radius: 25% 10%;
+    background: orange;
+}
+#three{
+    border-radius: 35px 10em 10%;
+    background: cyan;
+}
+#four{
+    border-radius: 50px 50% 50cm 50em;
+    background: lightblue;
+} */
+
+#left{
+    border-top-left-radius: 250px;
+    background: lightgreen;
+    padding: 50px;
+    border: 6px ridge red;
+    width: 300px;
+    height: 200px;
+    font-size: 25px;
+}
+#right{
+    border-top-right-radius: 50%;
+    background: lightgreen;
+    padding: 50px;
+    border: 6px ridge red;
+    width: 300px;
+    height: 200px;
+    font-size: 25px;
+}
+#bright{
+    border-bottom-right-radius: 50%;
+    background: lightgreen;
+    padding: 50px;
+    border: 6px ridge red;
+    width: 300px;
+    height: 200px;
+    font-size: 25px;
+}
+#bleft{
+    border-bottom-left-radius: 50%;
+    background: lightgreen;
+    padding: 50px;
+    border: 6px ridge red;
+    width: 300px;
+    height: 200px;
+    font-size: 25px;
+}

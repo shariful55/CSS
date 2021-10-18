@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>example of css visibility style via javascript </title>
+    <style>
+        #mydiv{
+            margin: auto;
+            height: 400px;
+            width: 300px;
+            background-color: lightslategray;
+            border: 1px solid orange;
+        }
+    </style>
+</head>
+<body>
+    <h1>Here is the example of hidden elemnent </h1>
+    <button onclick="myFunction()">Please click the "Try it " button to hide the dive element </button>
+    <div id="mydiv">This is mydive element here </div>
+    
+    <script>
+        function myFunction(){
+            document.getElementById("mydiv").style.visibility="hidden";
+        }
+    </script>
+</body>
+</html>

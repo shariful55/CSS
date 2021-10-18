@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>example counter properties</title>
+    <style>
+        body{
+            counter-reset: section;
+        }
+        h2::before{
+            counter-increment: section;
+            content: "Section" counter(section)":";
+        }
+    </style>
+</head>
+<body>
+    <h1>example of differrent programming language practice here okay </h1>
+    <h2>Java tutorial</h2>
+    <h2>Python tutorial</h2>
+    <h2>javascript tutorial</h2>
+    <h2>react tutorial</h2>
+    <p><strong>Note: </strong>Here is the example of css okay man </p>
+</body>
+</html>

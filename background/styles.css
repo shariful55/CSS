@@ -1,0 +1,23 @@
+h2,p{
+    background-color: #b0d4de;
+    
+    
+}
+body{
+    /* background-image: url("./nature.jpg");
+    border-right-width: 30px;
+    
+    margin-left: 100px;
+    background-repeat: repeat-y; */
+
+    /* background: white url("./nature.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-left: 200px; */
+
+    background: white url("./nature.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+}
