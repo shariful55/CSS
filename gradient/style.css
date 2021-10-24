@@ -1,0 +1,10 @@
+.top-bottom{
+    height: 200px;
+    background-color: blue;
+    background-image: linear-gradient(red, pink);
+}
+.right-left{
+    height: 200px;
+    background-color: red;
+    background-image: linear-gradient(to right, red, yellow);
+}
