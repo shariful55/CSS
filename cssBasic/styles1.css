@@ -1,0 +1,33 @@
+.left{
+    text-align:left;
+  }
+  
+  .main{
+    text-align:center;
+  }
+  .right{
+    text-align:right;
+  }
+  div{
+    text-align:justify;
+  }
+  p{
+    direction:rtl;
+    unicode-bidi:bidi-override;
+  }
+
+  img .a{
+    vertical-align: baseline;
+  }
+  img .b{
+    vertical-align: text-top;
+  }
+  img .c{
+    vertical-align: text-bottom;
+  }
+  img .d{
+    vertical-align: sub;
+  }
+  img .e{
+    vertical-align: super;
+  }
